@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#05111f;
+}
+nav{
+    width: 100%;
+    color: white;
+    background-color: #040e1a;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    &_menu{
+        display: flex;
+        justify-content: center;
+    }
+    &_li{
+        display: flex
+    }
+}
+li{
+    list-style: none;
+}
