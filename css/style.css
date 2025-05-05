@@ -169,7 +169,7 @@ main {
 
 .about {
   width: 100%;
-  background-color: #080b1b;
+  background-color: #040e1a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,3 +220,126 @@ main {
 .about_group {
   height: 360px;
 }
+
+.last {
+  background-color: #05111f;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.last .last_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.last .last_text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.last .last_text .last_h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: #3A68B8;
+}
+.last .last_text p {
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+.last .last_image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.last .last_image .last_img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #040e1a;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.foot_name {
+  color: #3A68B8;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.foot_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+.foot_imgs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.foot_first_column{
+color: white;
+opacity: 0.7;
+}
+.foot_h3{
+  color: #3A68B8;
+  font-family: "Roboto", sans-serif;
+}
+li{
+  list-style: none;
+
+}
+.foot_ul{
+  gap: 10px;
+  display: flex;
+  
+  flex-direction: column;
+}
+.foot_second_column{
+  color: white;
+  opacity: 0.7;
+  }
+  .foot_threes_column{
+    color: white;
+    opacity: 0.7;
+    }
